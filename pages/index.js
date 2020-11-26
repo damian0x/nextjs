@@ -5,13 +5,13 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Pozdrawiam moja ❤️ Klare i Patke 👨‍👩‍👧</title>
+        <title>Test</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
+        Pozdrawiam moja ❤️ Klare i Patke 👨‍👩‍👧
         </h1>
 
         <p className={styles.description}>
