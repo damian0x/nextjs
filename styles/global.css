@@ -1,0 +1,64 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap');
+
+body {
+    font-family: 'Crimson Text', serif;
+}
+
+@layer utilities {
+    .w-850 {
+      width: 850px;
+    }
+}
+
+.slick-list {
+    height: 550px;
+    padding: 100px !important;
+}
+
+  .slide {
+    transform: scale(1);
+    transition: transform 300ms;
+  }
+  
+  .activeSlide {
+    transform: scale(1.5);
+  }
+  
+  .arrow {
+    background-color: #fff;
+    position: absolute;
+    cursor: pointer;
+    z-index: 10;
+  }
+  
+  .arrow svg {
+    transition: color 300ms;
+    width: 40px;
+    height: 40px;
+  }
+  
+  .arrow svg:hover {
+    color: black;
+  }
+  
+  .next {
+    right: 42%;
+    bottom: 0%;
+  }
+  
+  .prev {
+    left: 42%;
+    bottom: 0%;
+  }
+  .prev::before {
+    position: absolute;
+    top: -15px;
+    left: 60px;
+    content: '/';
+    display: block;
+    font-size: 50px;
+  }
