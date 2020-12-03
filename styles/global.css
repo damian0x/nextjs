@@ -1,6 +1,7 @@
 /* purgecss start ignore */
 @tailwind base;
 /* purgecss end ignore */
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;700&display=swap');
 body {
     font-family: 'Crimson Text', serif;
 }
