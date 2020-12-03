@@ -1,5 +1,5 @@
 import '../styles/global.css'
-import React from 'react';
+import React, { useEffect } from 'react';
 
 function MyApp({ Component, pageProps }) {
   useEffect(() => {
