@@ -4,13 +4,13 @@ import { useState } from "react";
 import { FaArrowRight, FaArrowLeft } from "react-icons/fa";
 
 
-interface IDiscoverCard {
-    country: string,
-    city: string,
-    photo: string,
-}
+// interface IDiscoverCard {
+//     country: string,
+//     city: string,
+//     photo: string,
+// }
 
-const mock: IDiscoverCard[] = [
+const mock = [
     {
         country: 'United States',
         city: 'Yosemite',
