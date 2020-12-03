@@ -15,22 +15,22 @@ const mock = [
     {
         country: 'United States',
         city: 'Yosemite',
-        photo: 'yosemite.png'
+        photo: 'yosemite.webp'
     },
     {
         country: 'Iceland',
         city: 'Reynisfjara',
-        photo: 'reynisfjara.png'
+        photo: 'reynisfjara.webp'
     },
     {
         country: 'Italy',
         city: 'Venice',
-        photo: 'venice.png'
+        photo: 'venice.webp'
     },
     {
         country: 'Japan',
         city: 'Tokyo',
-        photo: 'tokyo.png'
+        photo: 'tokyo.webp'
     },
 ]
 
