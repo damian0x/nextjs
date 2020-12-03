@@ -56,6 +56,7 @@ const DiscoverToday = () => {
     
     
     const settings = {
+        lazyLoad: true,
         infinite: true,
         autoplay: true,
         autoplaySpeed: 3000,
