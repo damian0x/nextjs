@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import styled from 'styled-components'
-import { motion } from "framer-motion";
+import React from 'react';
 
 const Card = styled.div`
     background-position: center;
@@ -14,10 +14,10 @@ const DiscoverCard = ({cardData}) => {
     return (
         <Card 
             dynamicSrc={`./${cardData.photo}`} 
-            className="flex flex-col justify-end items-center h-64 w-40 mr-8 p-4 bg-gray-800 rounded-lg shadow-xs text-white"
+            className="custom-card"
         >
-            <span className="text-xs uppercase font-extrabold">{cardData.country}</span>
-            <h2 className="text-3xl font-medium">{cardData.city}</h2>
+            <span className="custom-card__span">{cardData.country}</span>
+            <h2 className="custom-card__h2">{cardData.city}</h2>
         </Card>
     )
 }

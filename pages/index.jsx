@@ -1,5 +1,6 @@
 import Head from 'next/head'
-import DiscoverToday from '../src/componets/DiscoverToday'
+import DiscoverToday from '../componets/DiscoverToday'
+import React from 'react';
 
 export default function Home() {
   return (

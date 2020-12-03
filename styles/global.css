@@ -1,17 +1,10 @@
 @tailwind base;
-@tailwind components;
-@tailwind utilities;
 
+/* Write your own custom base styles here */
 @import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap');
 
 body {
     font-family: 'Crimson Text', serif;
-}
-
-@layer utilities {
-    .w-850 {
-      width: 850px;
-    }
 }
 
 .slick-list {
@@ -62,3 +55,31 @@ body {
     display: block;
     font-size: 50px;
   }
+
+/* Start purging... */
+@tailwind components;
+/* Stop purging. */
+
+/* Write your own custom component styles here */
+.custom-card {
+  @apply flex flex-col justify-end items-center h-64 w-40 mr-8 p-4 bg-gray-800 rounded-lg shadow-md text-white;
+}
+
+.custom-card__span {
+  @apply text-xs uppercase font-extrabold;
+}
+
+.custom-card__h2 {
+  @apply text-3xl font-medium;
+}
+
+/* Start purging... */
+@tailwind utilities;
+/* Stop purging. */
+
+/* Your own custom utilities */
+@layer utilities {
+  .w-850 {
+    width: 850px;
+  }
+}

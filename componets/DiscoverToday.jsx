@@ -2,6 +2,7 @@ import DiscoverCard from "./DiscoverCard";
 import Slider from "react-slick";
 import { useState } from "react";
 import { FaArrowRight, FaArrowLeft } from "react-icons/fa";
+import React from 'react';
 
 
 // interface IDiscoverCard {
