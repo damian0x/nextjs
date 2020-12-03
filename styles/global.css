@@ -56,6 +56,10 @@ body {
     font-size: 50px;
   }
 
+  .w-850 {
+    width: 850px;
+  }
+
 /* Start purging... */
 @tailwind components;
 /* Stop purging. */
@@ -78,8 +82,3 @@ body {
 /* Stop purging. */
 
 /* Your own custom utilities */
-@layer utilities {
-  .w-850 {
-    width: 850px;
-  }
-}

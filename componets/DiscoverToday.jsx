@@ -80,7 +80,7 @@ const DiscoverToday = () => {
                 ))}
             </div> */}
 
-            <div className="container w-850 h-450">
+            <div className="container w-850">
                 <Slider {...settings}>
                     {mock.map((cardData, idx) => (
                         <div className={idx === imageIndex ? "slide activeSlide" : "slide"}>
